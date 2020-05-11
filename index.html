@@ -3,49 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia Game</title>
-    <!--Reset CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <!--Coded CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>NBA Trivia | 2</title>
+
+     <!--Reset CSS-->
+     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <!--Google Fonts-->
+     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+     <!--Coded CSS-->
+     <link rel="stylesheet" href="assets/css/style.css">
+     
 </head>
 <body>
-
-    <div class="jumbotron">
-        <h1 class="display-4">NBA Trivia!</h1>
-        <p class="lead">How well do you know the NBA? For you, I hope you're well versed in all things NBA because this will be a challenge.</p>
-        <hr class="my-4">
-        <p>You will have 2 minutes to answer all question correctly or the best that you can. Good luck!</p>
-        
-    </div>
-    <div>
+    <div class="header">
+        <h1><strong>NBA Trivia</strong></h1>
         <div id="timer">2:00</div>
     </div>
 
-        <button class="start">Start</button>
-        <!--Questions Div-->
-        <div id="questionsBox">
+    <button class="startBtn">Start</button>
 
-        </div>
+    <div class="questionBox">
+
+
+    </div>
+
+    <div class="score">
+        <h2 id="correct">Correct: </h2>
+        <h2 id="incorrect">Incorrect: </h2>
+        <h2 id="unanswered">Unanswered: </h2>
+
+    </div>
+
+    <button class="done">Done</button>
+    <button class="reset">Reset</button>
     
-<!--Scoreboard Div-->
-    <div class="results">
-        <h2 id="correct">Correct Answers:</h2>
-        <h2 id="incorrect">Incorrect Answers:</h2>
-        <h2 id="unanswered">Unanswered Questsions:</h2>
-    </div>  
-    
-    <button class="Done">Done</button>
 
-    <button class="Reset">Reset</button>
-
+<!--jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!--JS-->
-<script src="assets/javascript/app.js"> </script>    
+<script src="assets/javascript/app.js"> </script>
 </body>
 </html>

@@ -1,55 +1,75 @@
-body{
-    font-family: 'Press Start 2P', cursive;;
-    font-size: 18px;
-    background-image: url(../images/retro-nba-video-games-bulls-vs-blazers.png);
-    background-repeat: no-repeat center center fixed;
-    margin: 40px;
-}
-
-/* h1{
-    background-color: blanchedalmond;
-    text-align: center;
-    padding: 30px;
-    width: 40%;
-    margin-left: 400px;
-
+/* *{
+    color: red;
 } */
 
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    background-image: url("../images/retro-nba-video-games-bulls-vs-blazers.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 10px auto;
+    background-color: beige;
+    width: min-content;
+}
+
 #timer{
-    font-size: 22px;
+    margin: 10px auto;
+    background-color: beige;
+    width: 100px;
+    font-size: 20px;
 }
 
-.start{
-    margin-top: 30px;
-    margin-left: 550px;
-}
-
-#timer{
-    margin-left: 570px;
-    margin-top: -70px;
-}
-
-#questionsBox{
+.questionBox{
     display: none;
     width: 960px;
+    font-size: 12px;
     text-align: left;
-    background-color: blanchedalmond;
-    color: cornflowerblue;
+    background-color: sandybrown;
     padding: 10px;
+    margin-left: 280px;
 }
 
-.results{
+ul{
+    margin: 10px auto;
+}
+.li{
+    margin: 10px auto;
+}
+
+.score{
     display: none;
-    color:blue;
+    font-size: 18px;
+    background-color: beige;
+    width: max-content;
+    margin-left: 500px;
 }
 
-.Done{
-    margin-top: 40px;
-    margin-left: 550px;
+#correct{
+    margin: 10px auto;
 }
 
-.Reset{
-   margin-left: 0px; 
-   width: 180px;
+#incorrect{
+    margin: 10px auto;
+}
+
+#unanswered{
+    margin: 10px auto;
+}
+
+.done{
+    display: none;
+    margin: 10px auto;
+}
+
+.reset{
+    display: none;
+    margin: 10px auto;
 }
 
